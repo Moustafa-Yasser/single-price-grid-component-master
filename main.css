@@ -27,7 +27,7 @@ body {
       flex-wrap: nowrap;
   gap: 0px; }
   body main {
-    width: 80%;
+    width: 700px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-radius: 10px;
@@ -35,7 +35,8 @@ body {
     @media screen and (min-width: 320px) and (max-width: 767px) {
       body main {
         grid-template-columns: auto;
-        padding: 60px 0px; } }
+        padding: 60px 0px;
+        width: 85%; } }
     body main section {
       padding: 40px; }
       @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -57,7 +58,8 @@ body {
         color: #c0df34;
         margin-bottom: 15px; }
       body main section.top article {
-        color: #bbbfcc; }
+        color: #bbbfcc;
+        width: 90%; }
     body main section.bottom-left {
       background-color: #2bb3b1; }
       body main section.bottom-left p.price {
@@ -93,7 +95,10 @@ body {
         font-family: inherit;
         font-size: 18px;
         border-radius: 5px;
-        margin-top: 40px; }
+        margin-top: 40px;
+        -webkit-box-shadow: 0px 5px 20px 0 #00000042;
+                box-shadow: 0px 5px 20px 0 #00000042;
+        cursor: pointer; }
     body main section.bottom-right {
       background-color: #4abebd; }
       body main section.bottom-right p {
