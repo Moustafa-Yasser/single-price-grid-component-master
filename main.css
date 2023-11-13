@@ -58,8 +58,10 @@ body {
         color: #c0df34;
         margin-bottom: 15px; }
       body main section.top article {
-        color: #bbbfcc;
+        color: #7f7f7f;
         width: 90%; }
+        body main section.top article h4 {
+          display: none; }
     body main section.bottom-left {
       background-color: #2bb3b1; }
       body main section.bottom-left p.price {
@@ -103,7 +105,7 @@ body {
       background-color: #4abebd; }
       body main section.bottom-right p {
         line-height: 1.4;
-        color: #ebebeb;
+        color: #fff;
         font-weight: 200; }
 
 /*# sourceMappingURL=main.css.map */

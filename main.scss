@@ -54,7 +54,10 @@ body {
         margin-bottom: 15px;
       }
       article {
-        color: #bbbfcc;
+        h4 {
+          display: none;
+        }
+        color: #7f7f7f;
         width: 90%;
       }
   }
@@ -89,7 +92,7 @@ button {
       background-color: #4abebd;
       p {
         line-height: 1.4;
-        color: #ebebeb;
+        color: #fff;
         font-weight: 200;
       }
   }
