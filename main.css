@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: "Karla", sans-serif;
+  min-height: 100vh;
+  background-color: #e5eff5;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 0px; }
+  body main {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
+    overflow: hidden; }
+    @media screen and (min-width: 320px) and (max-width: 767px) {
+      body main {
+        grid-template-columns: auto;
+        padding: 60px 0px; } }
+    body main section {
+      padding: 40px; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        body main section {
+          padding: 30px; } }
+      body main section h3 {
+        margin-bottom: 30px; }
+    body main section.top {
+      background-color: #fff;
+      color: black;
+      grid-area: 1/1/1/3; }
+      @media screen and (min-width: 320px) and (max-width: 767px) {
+        body main section.top {
+          grid-area: 1/1/1/1; } }
+      body main section.top h2 {
+        color: #2bb3b1;
+        margin-bottom: 30px; }
+      body main section.top h3 {
+        color: #c0df34;
+        margin-bottom: 15px; }
+      body main section.top article {
+        color: #bbbfcc; }
+    body main section.bottom-left {
+      background-color: #2bb3b1; }
+      body main section.bottom-left p.price {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: left;
+            -ms-flex-pack: left;
+                justify-content: left;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        gap: 10px;
+        color: #ebebeb;
+        font-weight: 200; }
+        body main section.bottom-left p.price span {
+          font-weight: 500;
+          font-size: 40px;
+          color: #fff; }
+      body main section.bottom-left button {
+        width: 95%;
+        background-color: #c0df34;
+        border: none;
+        color: #fff;
+        height: 50px;
+        font-weight: bold;
+        font-family: inherit;
+        font-size: 18px;
+        border-radius: 5px;
+        margin-top: 40px; }
+    body main section.bottom-right {
+      background-color: #4abebd; }
+      body main section.bottom-right p {
+        line-height: 1.4;
+        color: #ebebeb;
+        font-weight: 200; }
+
+/*# sourceMappingURL=main.css.map */
